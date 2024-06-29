@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTubeのサムネ取得するやつ</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="center-align">YouTubeのサムネ取得するやつ</h3>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="youtube-url" type="text">
+                <label for="youtube-url">YouTubeのURLを入力してください</label>
+            </div>
+            <div class="center-align">
+                <button class="btn waves-effect waves-light" onclick="fetchThumbnails()">取得</button>
+            </div>
+        </div>
+        <div id="thumbnails-container" class="center-align"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="js/materialize.min.js"></script>
+</body>
+
+</html>
