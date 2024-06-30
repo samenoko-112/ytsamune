@@ -7,6 +7,10 @@ body {
     padding: 3vh;
 }
 
+*,button {
+    font-family: 'Roboto','Noto Sans JP',sans-serif;
+}
+
 .container {
     max-width: 860px;
     padding: 20px;
